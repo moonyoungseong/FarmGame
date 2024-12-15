@@ -652,92 +652,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0017081648, y: 0.010605201, z: 0.240333}
     m_Extent: {x: 0.10220765, y: 0.07777041, z: 0.109023616}
   m_DirtyAABB: 0
---- !u!1 &1448134705007785618
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7198485015321530078}
-  - component: {fileID: 5734024029767837222}
-  m_Layer: 0
-  m_Name: Sydney_Scifi_Helmet_geo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7198485015321530078
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448134705007785618}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6396365917024945718}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &5734024029767837222
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448134705007785618}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 257
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ced5ddb6a854acf4594125a5511e4e4a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4741490199536098899, guid: 33b8aa39b678ed04ebe408522c2e6dfc, type: 3}
-  m_Bones:
-  - {fileID: 6401972143536494030}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 6401972143536494030}
-  m_AABB:
-    m_Center: {x: 0.0035448074, y: 0.36025476, z: -0.019272804}
-    m_Extent: {x: 0.38903737, y: 0.2512076, z: 0.37360123}
-  m_DirtyAABB: 0
 --- !u!1 &1570175274302595547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,7 +1434,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7198485015321530078}
   - {fileID: 4936758912532661482}
   m_Father: {fileID: 6945047203039208972}
   m_RootOrder: 1
@@ -1650,7 +1563,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6396365917024945718}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1608987387387421592
 SkinnedMeshRenderer:
@@ -2219,7 +2132,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6839817211690937543}
   - component: {fileID: 7171712784302401187}
-  - component: {fileID: 4956112290225663372}
   m_Layer: 0
   m_Name: Sydney_Scifi_Root
   m_TagString: Untagged
@@ -2263,81 +2175,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4956112290225663372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4860010512547749017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db8052edd37c5da4ba56c08244eb648a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Mapper: {fileID: 11400000, guid: 1c12c1157ad96d54589057ac4485fcb7, type: 2}
-  m_EnabledChannels: 15
-  m_BlendShapes:
-    BrowDownLeft: 0
-    BrowDownRight: 0
-    BrowInnerUp: 0
-    BrowOuterUpLeft: 0
-    BrowOuterUpRight: 0
-    CheekPuff: 0
-    CheekSquintLeft: 0
-    CheekSquintRight: 0
-    EyeBlinkLeft: 0
-    EyeBlinkRight: 0
-    EyeLookDownLeft: 0
-    EyeLookDownRight: 0
-    EyeLookInLeft: 0
-    EyeLookInRight: 0
-    EyeLookOutLeft: 0
-    EyeLookOutRight: 0
-    EyeLookUpLeft: 0
-    EyeLookUpRight: 0
-    EyeSquintLeft: 0
-    EyeSquintRight: 0
-    EyeWideLeft: 0
-    EyeWideRight: 0
-    JawForward: 0
-    JawLeft: 0
-    JawOpen: 0
-    JawRight: 0
-    MouthClose: 0
-    MouthDimpleLeft: 0
-    MouthDimpleRight: 0
-    MouthFrownLeft: 0
-    MouthFrownRight: 0
-    MouthFunnel: 0
-    MouthLeft: 0
-    MouthLowerDownLeft: 0
-    MouthLowerDownRight: 0
-    MouthPressLeft: 0
-    MouthPressRight: 0
-    MouthPucker: 0
-    MouthRight: 0
-    MouthRollLower: 0
-    MouthRollUpper: 0
-    MouthShrugLower: 0
-    MouthShrugUpper: 0
-    MouthSmileLeft: 0
-    MouthSmileRight: 0
-    MouthStretchLeft: 0
-    MouthStretchRight: 0
-    MouthUpperUpLeft: 0
-    MouthUpperUpRight: 0
-    NoseSneerLeft: 0
-    NoseSneerRight: 0
-    TongueOut: 0
-  m_HeadPosition: {x: 0, y: 0, z: 0}
-  m_HeadOrientation: {x: 0, y: 0, z: 0}
-  m_LeftEyeOrientation: {x: 0, y: 0, z: 0}
-  m_RightEyeOrientation: {x: 0, y: 0, z: 0}
-  m_BlendShapesEnabled: 0
-  m_HeadPositionEnabled: 0
-  m_HeadOrientationEnabled: 0
-  m_EyeOrientationEnabled: 0
 --- !u!1 &5019755584318982236
 GameObject:
   m_ObjectHideFlags: 0

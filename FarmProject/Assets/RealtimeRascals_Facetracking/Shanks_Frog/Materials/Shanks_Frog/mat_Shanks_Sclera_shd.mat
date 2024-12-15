@@ -22,8 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: mat_Shanks_Sclera_shd
   m_Shader: {fileID: 4800000, guid: 0f4122b9a743b744abe2fb6a0a88868b, type: 3}
-  m_ValidKeywords:
-  - EFFECT_BUMP
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _ENABLE_GEOMETRIC_SPECULAR_AA
@@ -66,8 +65,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 100, y: 100}
-        m_Offset: {x: 100, y: 100}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
     - _CoatMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -101,9 +100,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5aca83ebcc0804f4db3d7e6edd9ceab2, type: 3}
-        m_Scale: {x: 100, y: 100}
-        m_Offset: {x: 100, y: 100}
+        m_Texture: {fileID: 2800000, guid: f46fe19ab61d41f45b1fbe77521751c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
     - _MaskMap:
         m_Texture: {fileID: 2800000, guid: 74cf4429afa15e744a231ba77ffb114b, type: 3}
         m_Scale: {x: 1, y: 1}
