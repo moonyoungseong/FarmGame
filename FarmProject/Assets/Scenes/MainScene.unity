@@ -2860,6 +2860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerGround
       objectReference: {fileID: 0}
+    - target: {fileID: 2083036940991818150, guid: 5aa8f9410f9198b43bc6a1e77d555890, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5aa8f9410f9198b43bc6a1e77d555890, type: 3}
 --- !u!1 &528727419
@@ -9491,6 +9495,7 @@ MonoBehaviour:
   walkSpeed: 2
   runSpeed: 4
   rotationSpeed: 50
+  jumpForce: 7
 --- !u!4 &1679993442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2106585151094673546, guid: 31bdf8eb5c2f2a545956e0763ca4c455, type: 3}
