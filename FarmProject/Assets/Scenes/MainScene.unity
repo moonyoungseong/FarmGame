@@ -2124,10 +2124,24 @@ BoxCollider:
   m_GameObject: {fileID: 449759928}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 7.13, y: 3.8554966, z: 6.76}
   m_Center: {x: 1.25, y: 1.9277483, z: -0.54}
+--- !u!64 &449759936
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449759928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3803550436978779197, guid: 595107c9c5349bd458775abc5097193d, type: 3}
 --- !u!1 &449841375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2519,6 +2533,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 540242188}
     m_Modifications:
+    - target: {fileID: 7865514376096308773, guid: 0ab1a545430fafe488e11a9735af1b7a, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 7cada774f0f604e4597eca90e6b18696, type: 3}
+    - target: {fileID: 7865514376096308773, guid: 0ab1a545430fafe488e11a9735af1b7a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f1bdc633ad0b20d40bd20739f0b2f20b, type: 2}
     - target: {fileID: 8933839942004378544, guid: 0ab1a545430fafe488e11a9735af1b7a, type: 3}
       propertyPath: m_Name
       value: Jasper_Animal
@@ -2570,6 +2592,25 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5083788375797331176, guid: 0ab1a545430fafe488e11a9735af1b7a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0ab1a545430fafe488e11a9735af1b7a, type: 3}
+--- !u!1 &473953431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8886700004594033218, guid: 68f7512320c6ad24a928d078b32fc75a, type: 3}
+  m_PrefabInstance: {fileID: 271786307}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &473953435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473953431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6860835262467659234, guid: 595107c9c5349bd458775abc5097193d, type: 3}
 --- !u!1 &489958739 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1302385027907765739, guid: b7c1f2f4982f90845917154c2351ca3d, type: 3}
@@ -4451,6 +4492,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 540242188}
     m_Modifications:
+    - target: {fileID: 1778498169433611680, guid: 533460b3c68e63e429bed3d65258e543, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 33b8aa39b678ed04ebe408522c2e6dfc, type: 3}
+    - target: {fileID: 1778498169433611680, guid: 533460b3c68e63e429bed3d65258e543, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: fb27007c71193324982a6f1c0b353fcd, type: 2}
     - target: {fileID: 8348851163920747756, guid: 533460b3c68e63e429bed3d65258e543, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7083,7 +7132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2106585151094673546, guid: 31bdf8eb5c2f2a545956e0763ca4c455, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.35
+      value: -11.99
       objectReference: {fileID: 0}
     - target: {fileID: 2106585151094673546, guid: 31bdf8eb5c2f2a545956e0763ca4c455, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7091,7 +7140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2106585151094673546, guid: 31bdf8eb5c2f2a545956e0763ca4c455, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 49.46
+      value: 20.5
       objectReference: {fileID: 0}
     - target: {fileID: 2106585151094673546, guid: 31bdf8eb5c2f2a545956e0763ca4c455, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11214,6 +11263,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panda_Corn
       objectReference: {fileID: 0}
+    - target: {fileID: 7753924750364312635, guid: 41f021efe9dae1b4799ba49a2d0f6271, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 2bd3b810443483d44adf16be12c0f8d8, type: 3}
+    - target: {fileID: 7753924750364312635, guid: 41f021efe9dae1b4799ba49a2d0f6271, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5fc31a2eec4c6af45a5bba22e84b994d, type: 2}
     - target: {fileID: 9193486990680569106, guid: 41f021efe9dae1b4799ba49a2d0f6271, type: 3}
       propertyPath: m_RootOrder
       value: 5
